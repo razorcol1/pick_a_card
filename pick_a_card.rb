@@ -1,5 +1,5 @@
 #Hey hey hey
 values = ['2', '3', '4', '5', '6', '7', '8', '9', '10', 'A']
-suits = ['Diamonds', 'Hearts', 'Clubs', 'Spades']
+suits = ['♦', '♠', '♥', '♣']
 
-puts "#{values.sample} of #{suits.sample}"
+puts "#{values.sample}#{suits.sample}"
